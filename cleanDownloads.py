@@ -1,11 +1,12 @@
 import os
 import shutil
+from pathlib import Path
 
 #paths
-downloads = "/home/rbulanad/Downloads"
-pictures = "/home/rbulanad/Pictures"
-documents = "/home/rbulanad/Documents"
-videos = "/home/rbulanad/Videos"
+downloads = Path.home() / "Downloads"
+pictures = Path.home() / "Pictures"
+documents = Path.home() / "Documents"
+videos = Path.home() / "Videos"
 
 for name in os.listdir(downloads):
 	src = os.path.join(downloads ,name)

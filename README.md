@@ -38,7 +38,7 @@ git clone https://github.com/RedWrks/downloadsCleaner.git
 
 Execute the script with python3:
 ```sh
-python3 cleanDownloads.py
+python3 path/to/cleanDownloads.py
 ```
 Messages will appear notifying you of which files have been moved to which directory:
 ```sh
